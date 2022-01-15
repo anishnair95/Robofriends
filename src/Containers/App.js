@@ -53,6 +53,9 @@ class App extends Component {
       return robot.name.toLowerCase().includes(searchfield.toLowerCase());
     })
     console.log('render');
+
+
+    
     //if length of data =0 and exist - checks whether it is loaded for first time?
     if (filteredRobots.length === 0 && !this.state.exist) {
       return (
